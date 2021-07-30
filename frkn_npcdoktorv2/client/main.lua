@@ -216,7 +216,7 @@ Citizen.CreateThread(function()
         FreezeEntityPosition(adamdoktor, true)
         loadAnimDict('amb@world_human_leaning@female@wall@back@hand_up@idle_a')
         if not IsEntityPlayingAnim(adamdoktor, "amb@world_human_leaning@female@wall@back@hand_up@idle_a", "idle_a", 3) then
-            TaskPlayAnim(sapikdokadamdoktortor, "amb@world_human_leaning@female@wall@back@hand_up@idle_a", "idle_a", 1.0, 1.0, 1.0, 1, 0.0, 0, 0, 0)
+            TaskPlayAnim(adamdoktor, "amb@world_human_leaning@female@wall@back@hand_up@idle_a", "idle_a", 1.0, 1.0, 1.0, 1, 0.0, 0, 0, 0)
         end
         Citizen.CreateThread(function()
             while true do 
